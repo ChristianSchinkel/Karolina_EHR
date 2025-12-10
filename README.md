@@ -1,21 +1,50 @@
-# Karolina_EHR
+# Karolina EHR - Electronic Health Record System
 
-Electronic Health Record (EHR) System
+This is a collaboration between students at Karolinska Institutet in Stockholm to create an EHR with basic functionality using the tools we've been equipped with while studying at the Joint Masters Program in Health Informatics.
 
 ## Overview
 
-This is a collaboration between students at Karolinska Institutet in Stockholm to create an EHR with basic functionality using the tools we've been equipped with while studying in the Joint Masters Program in Health Informatics.
+Karolina EHR is a terminal-based Electronic Health Record application designed for hospitals and healthcare facilities. The system is built with compliance, security, and international standards at its core.
+
+**🚀 New to Karolina EHR? Check out the [Quick Start Guide](QUICKSTART.md) to get started in 5 minutes!**
 
 ## Features
 
-- Electronic Health Record management
-- Built with Python
-- Modular and extensible architecture
+### Core Functionality
+- **User Management**: Support for nurses, doctors, patients, and administrative staff
+- **SOAP Notes**: Clinical documentation using SOAP format (Subjective, Objective, Assessment, Plan)
+- **Work Schedule**: Workpass schedule management for hospital staff
+- **Patient Management**: Comprehensive patient data management
+
+### Medical Standards Integration
+- **ICD-11**: International Classification of Diseases (11th Revision) for diagnosis coding
+- **ATC Codes**: Anatomical Therapeutic Chemical classification for medications
+- **DRG**: Diagnosis Related Groups for hospital billing and resource allocation
+- **SNOMED-CT**: Clinical terminology for healthcare documentation
+
+### Compliance & Security
+- **GDPR Compliant**: 
+  - Data minimization
+  - Consent management
+  - Right to be forgotten
+  - Comprehensive audit logging
+  - Data anonymization
+
+- **NIS2 Compliant**:
+  - Security event logging
+  - Role-based access control
+  - Data encryption
+  - Incident monitoring
+
+### Localization
+Multi-language support for international use:
+- 🇬🇧 English
+- 🇸🇪 Swedish (Svenska)
+- 🇩🇪 German (Deutsch)
 
 ## Installation
 
 ### Prerequisites
-
 - Python 3.8 or higher
 - pip (Python package installer)
 
