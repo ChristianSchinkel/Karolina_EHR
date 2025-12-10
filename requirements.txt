@@ -1,9 +1,2 @@
-# Core dependencies
-python-dateutil>=2.8.2
-cryptography>=41.0.0
-
-# For terminal UI
-rich>=13.7.0
-
-# For localization
-babel>=2.13.1
+# Karolina EHR - Production Dependencies
+# Currently no production dependencies
