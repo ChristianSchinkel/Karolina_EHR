@@ -1,0 +1,70 @@
+{
+  "app_title": "Karolina Elektronisk Hälsojournal System",
+  "welcome": "Välkommen till Karolina EHR",
+  "menu_main": "Huvudmeny",
+  "menu_patient_management": "Patienthantering",
+  "menu_soap_notes": "SOAP-anteckningar",
+  "menu_work_schedule": "Arbetsschema",
+  "menu_settings": "Inställningar",
+  "menu_logout": "Logga ut",
+  "menu_exit": "Avsluta",
+  
+  "patient_list": "Patientlista",
+  "patient_add": "Lägg till ny patient",
+  "patient_view": "Visa patient",
+  "patient_edit": "Redigera patient",
+  "patient_delete": "Ta bort patient",
+  
+  "soap_create": "Skapa SOAP-anteckning",
+  "soap_view": "Visa SOAP-anteckningar",
+  "soap_subjective": "Subjektivt",
+  "soap_objective": "Objektivt",
+  "soap_assessment": "Bedömning",
+  "soap_plan": "Plan",
+  
+  "schedule_view": "Visa schema",
+  "schedule_add": "Lägg till pass",
+  "schedule_edit": "Redigera pass",
+  
+  "username": "Användarnamn",
+  "password": "Lösenord",
+  "login": "Logga in",
+  "role": "Roll",
+  
+  "nurse": "Sjuksköterska",
+  "doctor": "Läkare",
+  "patient": "Patient",
+  "admin": "Administratör",
+  
+  "consent_required": "Patientsamtycke krävs",
+  "consent_given": "Samtycke givet",
+  "consent_not_given": "Samtycke ej givet",
+  
+  "icd11_code": "ICD-11 Kod",
+  "atc_code": "ATC-kod",
+  "drg_code": "DRG-kod",
+  "snomed_code": "SNOMED-CT Kod",
+  
+  "gdpr_compliance": "GDPR-kompatibel",
+  "nis2_compliance": "NIS2-kompatibel",
+  "data_encrypted": "Data krypterad",
+  
+  "language_en": "Engelska",
+  "language_sv": "Svenska",
+  "language_de": "Tyska",
+  
+  "save": "Spara",
+  "cancel": "Avbryt",
+  "delete": "Ta bort",
+  "edit": "Redigera",
+  "view": "Visa",
+  "back": "Tillbaka",
+  "next": "Nästa",
+  "search": "Sök",
+  
+  "error_access_denied": "Åtkomst nekad",
+  "error_not_found": "Hittades inte",
+  "error_invalid_input": "Ogiltig inmatning",
+  "success_saved": "Sparad framgångsrikt",
+  "success_deleted": "Raderad framgångsrikt"
+}

@@ -1,0 +1,70 @@
+{
+  "app_title": "Karolina Electronic Health Record System",
+  "welcome": "Welcome to Karolina EHR",
+  "menu_main": "Main Menu",
+  "menu_patient_management": "Patient Management",
+  "menu_soap_notes": "SOAP Notes",
+  "menu_work_schedule": "Work Schedule",
+  "menu_settings": "Settings",
+  "menu_logout": "Logout",
+  "menu_exit": "Exit",
+  
+  "patient_list": "Patient List",
+  "patient_add": "Add New Patient",
+  "patient_view": "View Patient",
+  "patient_edit": "Edit Patient",
+  "patient_delete": "Delete Patient",
+  
+  "soap_create": "Create SOAP Note",
+  "soap_view": "View SOAP Notes",
+  "soap_subjective": "Subjective",
+  "soap_objective": "Objective",
+  "soap_assessment": "Assessment",
+  "soap_plan": "Plan",
+  
+  "schedule_view": "View Schedule",
+  "schedule_add": "Add Shift",
+  "schedule_edit": "Edit Shift",
+  
+  "username": "Username",
+  "password": "Password",
+  "login": "Login",
+  "role": "Role",
+  
+  "nurse": "Nurse",
+  "doctor": "Doctor",
+  "patient": "Patient",
+  "admin": "Administrator",
+  
+  "consent_required": "Patient consent required",
+  "consent_given": "Consent given",
+  "consent_not_given": "Consent not given",
+  
+  "icd11_code": "ICD-11 Code",
+  "atc_code": "ATC Code",
+  "drg_code": "DRG Code",
+  "snomed_code": "SNOMED-CT Code",
+  
+  "gdpr_compliance": "GDPR Compliant",
+  "nis2_compliance": "NIS2 Compliant",
+  "data_encrypted": "Data Encrypted",
+  
+  "language_en": "English",
+  "language_sv": "Swedish",
+  "language_de": "German",
+  
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "view": "View",
+  "back": "Back",
+  "next": "Next",
+  "search": "Search",
+  
+  "error_access_denied": "Access denied",
+  "error_not_found": "Not found",
+  "error_invalid_input": "Invalid input",
+  "success_saved": "Successfully saved",
+  "success_deleted": "Successfully deleted"
+}
