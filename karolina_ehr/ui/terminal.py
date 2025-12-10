@@ -428,12 +428,17 @@ class TerminalUI:
         department = Prompt.ask("Department")
         shift_type = Prompt.ask("Shift type", choices=["day", "night", "evening"])
         
+        # Calculate end time based on shift type (8 hours for simplicity)
+        from datetime import timedelta
+        start = datetime.now()
+        end = start + timedelta(hours=8)
+        
         schedule = WorkSchedule(
             staff_id=self.current_user.id,
             department=department,
             shift_type=shift_type,
-            start_time=datetime.now(),
-            end_time=datetime.now()
+            start_time=start,
+            end_time=end
         )
         
         self.schedules.append(schedule)

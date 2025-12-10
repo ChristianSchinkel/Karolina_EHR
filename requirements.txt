@@ -7,6 +7,3 @@ rich>=13.7.0
 
 # For localization
 babel>=2.13.1
-
-# For data validation
-pydantic>=2.5.0

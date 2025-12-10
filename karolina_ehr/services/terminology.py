@@ -65,11 +65,17 @@ class ATCService:
     
     @staticmethod
     def validate_code(code: str) -> bool:
-        """Validate if an ATC code is properly formatted."""
-        if not code:
+        """Validate if an ATC code is properly formatted.
+        
+        ATC format: Letter-2Digits-2Letters-2Digits (e.g., A10BA02)
+        """
+        if not code or len(code) != 7:
             return False
-        # ATC codes follow pattern: Letter-Number-Letter-Letter-Number-Number
-        return len(code) == 7 and code[0].isalpha()
+        # Pattern: Letter-Number-Number-Letter-Letter-Number-Number
+        return (code[0].isalpha() and 
+                code[1:3].isdigit() and 
+                code[3:5].isalpha() and 
+                code[5:7].isdigit())
     
     @staticmethod
     def get_description(code: str) -> Optional[str]:

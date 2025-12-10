@@ -129,10 +129,11 @@ class NIS2Service:
             f.write(json.dumps(log_entry) + "\n")
     
     def encrypt_sensitive_data(self, data: str) -> str:
-        """Encrypt sensitive data.
+        """Hash sensitive data for demonstration.
         
-        In a real system, this would use proper encryption (e.g., AES-256).
-        For demonstration, we use a simple hash.
+        Note: This is a hash, not encryption. In production, use proper
+        encryption with the cryptography library (e.g., Fernet symmetric encryption).
+        Hashing is one-way; real encryption allows decryption with a key.
         """
         return hashlib.sha256(data.encode()).hexdigest()
     

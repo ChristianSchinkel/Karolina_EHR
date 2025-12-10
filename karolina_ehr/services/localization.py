@@ -28,8 +28,12 @@ class LocalizationService:
         for lang in ["en", "sv", "de"]:
             locale_file = locales_dir / lang / "messages.json"
             if locale_file.exists():
-                with open(locale_file, "r", encoding="utf-8") as f:
-                    self.translations[lang] = json.load(f)
+                try:
+                    with open(locale_file, "r", encoding="utf-8") as f:
+                        self.translations[lang] = json.load(f)
+                except json.JSONDecodeError as e:
+                    print(f"Warning: Failed to load {lang} translations: {e}")
+                    self.translations[lang] = {}
             else:
                 self.translations[lang] = {}
     
