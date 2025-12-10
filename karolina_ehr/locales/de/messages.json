@@ -1,0 +1,70 @@
+{
+  "app_title": "Karolina Elektronisches Gesundheitsakten-System",
+  "welcome": "Willkommen bei Karolina EHR",
+  "menu_main": "Hauptmenü",
+  "menu_patient_management": "Patientenverwaltung",
+  "menu_soap_notes": "SOAP-Notizen",
+  "menu_work_schedule": "Arbeitsplan",
+  "menu_settings": "Einstellungen",
+  "menu_logout": "Abmelden",
+  "menu_exit": "Beenden",
+  
+  "patient_list": "Patientenliste",
+  "patient_add": "Neuen Patienten hinzufügen",
+  "patient_view": "Patient anzeigen",
+  "patient_edit": "Patient bearbeiten",
+  "patient_delete": "Patient löschen",
+  
+  "soap_create": "SOAP-Notiz erstellen",
+  "soap_view": "SOAP-Notizen anzeigen",
+  "soap_subjective": "Subjektiv",
+  "soap_objective": "Objektiv",
+  "soap_assessment": "Beurteilung",
+  "soap_plan": "Plan",
+  
+  "schedule_view": "Zeitplan anzeigen",
+  "schedule_add": "Schicht hinzufügen",
+  "schedule_edit": "Schicht bearbeiten",
+  
+  "username": "Benutzername",
+  "password": "Passwort",
+  "login": "Anmelden",
+  "role": "Rolle",
+  
+  "nurse": "Krankenschwester",
+  "doctor": "Arzt",
+  "patient": "Patient",
+  "admin": "Administrator",
+  
+  "consent_required": "Patienteneinwilligung erforderlich",
+  "consent_given": "Einwilligung erteilt",
+  "consent_not_given": "Einwilligung nicht erteilt",
+  
+  "icd11_code": "ICD-11 Code",
+  "atc_code": "ATC-Code",
+  "drg_code": "DRG-Code",
+  "snomed_code": "SNOMED-CT Code",
+  
+  "gdpr_compliance": "DSGVO-konform",
+  "nis2_compliance": "NIS2-konform",
+  "data_encrypted": "Daten verschlüsselt",
+  
+  "language_en": "Englisch",
+  "language_sv": "Schwedisch",
+  "language_de": "Deutsch",
+  
+  "save": "Speichern",
+  "cancel": "Abbrechen",
+  "delete": "Löschen",
+  "edit": "Bearbeiten",
+  "view": "Anzeigen",
+  "back": "Zurück",
+  "next": "Weiter",
+  "search": "Suchen",
+  
+  "error_access_denied": "Zugriff verweigert",
+  "error_not_found": "Nicht gefunden",
+  "error_invalid_input": "Ungültige Eingabe",
+  "success_saved": "Erfolgreich gespeichert",
+  "success_deleted": "Erfolgreich gelöscht"
+}
