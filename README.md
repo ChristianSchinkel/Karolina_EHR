@@ -6,6 +6,8 @@ This is a collaboration between students at Karolinska Institutet in Stockholm t
 
 Karolina EHR is a terminal-based Electronic Health Record application designed for hospitals and healthcare facilities. The system is built with compliance, security, and international standards at its core.
 
+**🚀 New to Karolina EHR? Check out the [Quick Start Guide](QUICKSTART.md) to get started in 5 minutes!**
+
 ## Features
 
 ### Core Functionality
