@@ -1,0 +1,2 @@
+# Karolina EHR - Production Dependencies
+# Currently no production dependencies
